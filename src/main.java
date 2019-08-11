@@ -16,11 +16,11 @@ public class main {
 
     public static void main(String[] args) throws FileNotFoundException {
         Queue q = new Queue();
-        File file = new File("data.txt");
+        
+        File file = new File("TestData.txt");
         Scanner sc = new Scanner(file);
-        int i = 0;
+        
         while (sc.hasNextLine()) {
-            i++;
             String[] words = sc.nextLine().split(" ");
             q.insert(new Process(Integer.parseInt(words[0]), Integer.parseInt(words[1])));
         }
