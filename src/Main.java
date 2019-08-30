@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class main {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void Main(String[] args) throws FileNotFoundException {
         Queue q = new Queue();
         File file = new File("TestData.txt");
         Scanner sc = new Scanner(file);
