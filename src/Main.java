@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author Pablo Suria
  */
-public class main {
+public class Main {
 
     public static void Main(String[] args) throws FileNotFoundException {
         Queue q = new Queue();
