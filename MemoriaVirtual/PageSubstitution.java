@@ -111,7 +111,7 @@ public class PageSubstitution {
 		LinkedList<Integer> cloneB = (LinkedList<Integer>) queue.clone();
 
 		System.out.println("FIFO " + FIFO(queue.remove(), queue));
-		System.out.println("ORM " + ORM(cloneA.remove(), cloneA));
+		System.out.println("OTM " + ORM(cloneA.remove(), cloneA));
 		System.out.println("LRU " + LRU(cloneB.remove(), cloneB));
 
 	}
